@@ -1,0 +1,11 @@
+{
+    "name": "Moutinhoart.Mpcoreutilities.Tests",
+    "references": [
+        "Moutinhoart.Mpcoreutilities"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

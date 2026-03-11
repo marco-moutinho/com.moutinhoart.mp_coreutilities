@@ -1,0 +1,14 @@
+{
+    "name": "Moutinhoart.Mpcoreutilities.Editor.Tests",
+    "references": [
+        "Moutinhoart.Mpcoreutilities.Editor",
+        "Moutinhoart.Mpcoreutilities"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Moutinhoart.Mpcoreutilities.Editor",
+    "references": [
+      "Moutinhoart.Mpcoreutilities"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
