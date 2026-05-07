@@ -19,7 +19,7 @@
                     "name": "IA_Look",
                     "type": "Value",
                     "id": "1fed6940-57cb-4656-9061-6f726b3e328b",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -55,6 +55,15 @@
                     "name": "IA_Jump",
                     "type": "Button",
                     "id": "f9ad3ac0-1646-4d7b-b9e7-db0abed716be",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "IA_Sprint",
+                    "type": "Button",
+                    "id": "312af869-51ff-49b8-ac0c-9b2210113bd5",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -144,7 +153,7 @@
                     "id": "e41303f9-1dbb-4398-a0dc-437eeae338e2",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "StickDeadzone",
                     "groups": "",
                     "action": "IA_Look",
                     "isComposite": false,
@@ -213,6 +222,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "IA_Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e769c773-22a9-4057-b4c2-49ee67ca64f9",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "IA_Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
